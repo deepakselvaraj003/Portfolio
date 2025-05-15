@@ -183,12 +183,35 @@ nav ul li a:hover::after{
     color: #AA60C8;
     text-decoration: none;
     font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
     text-align: center;
+}
+.layer .sorc{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.layer .liv{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.layer .sorc:hover{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    transition: 1s;
+    border-radius: 10px;
+    background-color: #e4c0c0;
+    color: #AA60C8;
+    cursor: pointer;
+}
+.layer .liv:hover{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    transition: 1s;
+    border-radius: 10px;
+    background-color: #e4c0c0;
+    color: #AA60C8;
+    cursor: pointer;
 }
 .layer .p{
     margin-top: 5px;
